@@ -1,0 +1,231 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C9351D9-1F5C-4FE7-AD78-22F9782EBDA3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>yuknak</RootNamespace>
+    <AssemblyName>yuknak</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anasayfaaspx.aspx" />
+    <Content Include="aracbıldır.aspx" />
+    <Content Include="aracilanları.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="ilanver.aspx" />
+    <Content Include="site1.css" />
+    <Content Include="site2.css" />
+    <Content Include="Web.config" />
+    <Content Include="yedeklogo.png" />
+    <Content Include="YeniGorsel\anasayfa.png" />
+    <Content Include="YeniGorsel\aracvar.jpg" />
+    <Content Include="YeniGorsel\arkaplabıt.png" />
+    <Content Include="YeniGorsel\arkaplan.png" />
+    <Content Include="YeniGorsel\ass.png" />
+    <Content Include="YeniGorsel\balıkıkı.png" />
+    <Content Include="YeniGorsel\Başlıksız-33.png" />
+    <Content Include="YeniGorsel\Başlıksız-36.png" />
+    <Content Include="YeniGorsel\Başlıksız-39.png" />
+    <Content Include="YeniGorsel\Başlıksız-44.png" />
+    <Content Include="YeniGorsel\bolum_birarka.png" />
+    <Content Include="YeniGorsel\bolüm.png" />
+    <Content Include="YeniGorsel\bosarac.png" />
+    <Content Include="YeniGorsel\enalt.png" />
+    <Content Include="YeniGorsel\enaltkısım.png" />
+    <Content Include="YeniGorsel\enustcıta.png" />
+    <Content Include="YeniGorsel\gercek.png" />
+    <Content Include="YeniGorsel\gırıs.png" />
+    <Content Include="YeniGorsel\gırıss.png" />
+    <Content Include="YeniGorsel\icerik.png" />
+    <Content Include="YeniGorsel\icerikıkı.png" />
+    <Content Include="YeniGorsel\logoo.png" />
+    <Content Include="YeniGorsel\logın.png" />
+    <Content Include="YeniGorsel\New Project %2810%29.png" />
+    <Content Include="YeniGorsel\New Project %2811%29.png" />
+    <Content Include="YeniGorsel\New Project %2812%29.png" />
+    <Content Include="YeniGorsel\New Project %2813%29.png" />
+    <Content Include="YeniGorsel\New Project %284%29.jpg" />
+    <Content Include="YeniGorsel\New Project %285%29.jpg" />
+    <Content Include="YeniGorsel\New Project %285%29.png" />
+    <Content Include="YeniGorsel\New Project %286%29.png" />
+    <Content Include="YeniGorsel\New Project %287%29.png" />
+    <Content Include="YeniGorsel\New Project %288%29.png" />
+    <Content Include="YeniGorsel\New Project %289%29.png" />
+    <Content Include="YeniGorsel\resimyok.png" />
+    <Content Include="YeniGorsel\resimyok2.png" />
+    <Content Include="YeniGorsel\tabloarkaplan.png" />
+    <Content Include="YeniGorsel\yedeklogo.png" />
+    <Content Include="YeniGorsel\yukbıl.png" />
+    <Content Include="YeniGorsel\yukvar.jpg" />
+    <Content Include="YeniGorsel\yukılan.png" />
+    <Content Include="YeniGorsel\ıkıncıcıta.png" />
+    <Content Include="İlanlar.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfaaspx.aspx.cs">
+      <DependentUpon>Anasayfaaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anasayfaaspx.aspx.designer.cs">
+      <DependentUpon>Anasayfaaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aracbıldır.aspx.cs">
+      <DependentUpon>aracbıldır.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aracbıldır.aspx.designer.cs">
+      <DependentUpon>aracbıldır.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aracilanları.aspx.cs">
+      <DependentUpon>aracilanları.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aracilanları.aspx.designer.cs">
+      <DependentUpon>aracilanları.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.Master.cs">
+      <DependentUpon>default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.Master.designer.cs">
+      <DependentUpon>default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Defaultıkı.Master.cs">
+      <DependentUpon>Defaultıkı.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Defaultıkı.Master.designer.cs">
+      <DependentUpon>Defaultıkı.Master</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ilanver.aspx.cs">
+      <DependentUpon>ilanver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ilanver.aspx.designer.cs">
+      <DependentUpon>ilanver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="İlanlar.aspx.cs">
+      <DependentUpon>İlanlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="İlanlar.aspx.designer.cs">
+      <DependentUpon>İlanlar.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default.Master" />
+    <Content Include="Defaultıkı.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50027</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50027/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

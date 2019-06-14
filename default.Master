@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="yuknak._default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="site1.css" rel="stylesheet" />
+    <link href="site2.css" rel="stylesheet" />
+    <title></title>
+    
+    </head>
+<body>
+    <form id="form1" runat="server">
+       <div id="ustbolge" class="dısalan">
+           <div id="logo" class="logo"></div>
+           <div id="uyegırısı" class="uyegırısı" ></div>
+           <div id="araclıstesı" class="araclıste"><a href="aracilanları.aspx">Güncel Araç Listesi</a></div>
+           <div id="boslukbır" class="bır">|</div>
+           
+           
+           <div id="yuklıstesı" class="yuklıste"><a href="İlanlar.aspx">Güncel Yük Listesi</a></div>
+           <div id="boslukıkı" class="ıkı">|</div>
+           <div id="yukbıldır" class="yukbıldır"><a href="ilanver.aspx">Yük Bildir</a></div>
+           <div id="boslukuc" class="uc">|</div>
+           <div id="aracbildir" class="aracbıldır"><a href="aracbıldır.aspx">Boş Araç Bildir</a></div>
+           
+       </div>
+        
+       <div id="ıkıncıust" class="dısalanıkı"></div>
+        <div id="iicerikıkı" class="ıcerıkıkı"> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+            </div>
+        <div id="iicerikbır" class="ıcerıkbır">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <div id="altbolumbır" class="bolumbır">
+           <div id="yuknak" class="tablobaslık">Yüknak
+               <div id="Güncelyi" class="tablobaslıkıkı">Nasıl Çalışır?</div>
+               <div id="Güncelar" class="tablobaslıkıkı">YükNak Avantajları</div>
+               <div id="ndnyknk" class="tablobaslıkıkı">Neden YükNak?</div>
+           </div>
+            <div id="guvenlik" class="tablobaslık">Güvenlik
+                <div id="Gizlilik & Güvenlik" class="tablobaslıkıkı">Gizlilik & Güvenlik</div>
+                <div id="gPolitika" class="tablobaslıkıkı">Gizlilik Politikası</div>
+                <div id="Veri" class="tablobaslıkıkı">Kişisel Verilerin Korunması</div>
+            </div>
+             <div id="bılgı" class="tablobaslık">Faydalı Bilgiler
+                 <div id="Mesafe Hesaplama" class="tablobaslıkıkı">Mesafe Hesaplama</div>
+             </div>
+               <div id="yetkıbelgesı" class="tablobaslık">Yetki Belgesi
+                   <div id="spol" class="tablobaslıkıkı">Sigorta Poliçisesi</div>
+               </div>
+            <div id="cagrı" class="tablobaslık">7/24 Çağrı Merkezi
+                <div id="tel" class="tablobaslıkuc">+90 553 3 583 851</div>
+            </div>
+        </div>
+        <div id="enalt" class="enalt">© Telif Hakkı 2019 
+                                     <br />
+            yuknak PAU YBS Öğrencileri Tarafından Geliştirilmiştir
+
+        </div>
+       
+    </form>
+</body>
+</html>

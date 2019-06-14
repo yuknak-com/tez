@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Defaultıkı.master.cs" Inherits="yuknak.Defaultıkı" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="site1.css" rel="stylesheet" />
+    <title></title>
+       <style type="text/css">
+           .auto-style10 {
+               height: 20px;
+               width: 17px;
+               font-size: 16px;
+               color: white;
+               font-weight: bold;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               float: right;
+               margin-top: 20px;
+           }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+            
+       <div id="ustbolge" class="dısalan">
+           <div id="logo" class="logo"></div>
+           <div id="uyegırısı" class="uyegırısı"></div>
+           <div id="araclıstesı" class="araclıste">Neden YükNak?</div>
+           <div id="boslukbır" class="bır">|</div>
+           
+           
+           <div id="yuklıstesı" class="yuklıste">YükNak Avantajları</div>
+           <div id="boslukıkı" class="ıkı">|</div>
+           <div id="yukbıldır" class="yukbıldır">Nasıl Çalışır?</div>
+           <div id="boslukuc" class="auto-style10"></div>
+           
+       </div>
+        
+       <div id="ıkıncıust" class="dısalanıkı"></div>
+        <div id="bolum" class="bolum">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="iicerikbır" class="ıcerıkbır">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <div id="class" class="anasayfaa"></div>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="iicerikıkı" class="ıcerıkıkı"> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+        <div id="altbolumbır" class="bolumbır">
+           <div id="yuknak" class="tablobaslıkbır">Yüknak
+               <div id="Güncelyi" class="tablobaslıkıkı">Güncel Yük İlanları</div>
+               <div id="Güncelar" class="tablobaslıkıkı">Güncel Boş Araç İlanları</div>
+               <div id="ndnyknk" class="tablobaslıkıkı">Neden YükNak?</div>
+           </div>
+            <div id="guvenlik" class="tablobaslık">Güvenlik
+                <div id="Gizlilik & Güvenlik" class="tablobaslıkıkı">Gizlilik & Güvenlik</div>
+                <div id="gPolitika" class="tablobaslıkıkı">Gizlilik Politikası</div>
+                <div id="Veri" class="tablobaslıkıkı">Kişisel Verilerin Korunması</div>
+            </div>
+             <div id="bılgı" class="tablobaslık">Faydalı Bilgiler
+                 <div id="Mesafe Hesaplama" class="tablobaslıkıkı">Mesafe Hesaplama</div>
+             </div>
+               <div id="yetkıbelgesı" class="tablobaslık">Yetki Belgesi
+                   <div id="spol" class="tablobaslıkıkı">Sigorta Poliçisesi</div>
+               </div>
+            <div id="cagrı" class="tablobaslık">7/24 Çağrı Merkezi
+                <div id="tel" class="tablobaslıkuc">+90 553 3 583 851</div>
+            </div>
+        </div>
+        <div id="enalt" class="enalt">© Telif Hakkı 2019 
+                                     <br />
+            yuknak PAU YBS Öğrencileri Tarafından Geliştirilmiştir
+
+        </div>
+       
+    </form>
+    
+</body>
+</html>
